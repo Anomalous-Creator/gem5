@@ -1,0 +1,6 @@
+Import('*')
+
+SimObject('CacheController.py')
+Source('cache_controller.cc')
+
+DebugFlag('CacheController')

@@ -2,5 +2,8 @@ Import('*')
 
 SimObject('CacheController.py')
 Source('cache_controller.cc')
+SimObject('SplitCache.py')
+Source('split_cache.cc')
 
 DebugFlag('CacheController')
+DebugFlag('SplitCache')
